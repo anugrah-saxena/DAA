@@ -1,0 +1,22 @@
+pat7<-b13
+tex->90231,pmod->10000,pat->7,b->13
+
+Now the intermediate steps:
+
+tex->90231,a->11
+tex->2314,a->0
+tex->23141,a->1
+tex->31415,a->7
+
+[spurious hit	31415]
+
+tex->14152,a->8
+tex->41526,a->4
+tex->15267,a->5
+tex->52673,a->10
+tex->26739,a->11
+tex->67399,a->7
+
+Final Output:
+
+[matched pattern	67399]
