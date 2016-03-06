@@ -1,0 +1,18 @@
+l1=7 l2=6
+(0,no)	(0,no)	(0,no)	(0,no)	(0,no)	(0,no)	(0,no)	
+
+(0,no)	(0,up)	(0,up)	(0,up)	(1,di)	(1,lt)	(1,di)	
+
+(0,no)	(1,di)	(1,lt)	(1,lt)	(1,up)	(2,di)	(2,lt)	
+
+(0,no)	(1,up)	(1,up)	(2,di)	(2,lt)	(2,up)	(2,up)	
+
+(0,no)	(1,di)	(1,up)	(2,up)	(2,up)	(3,di)	(3,lt)	
+
+(0,no)	(1,up)	(2,di)	(2,up)	(2,up)	(3,up)	(3,up)	
+
+(0,no)	(1,up)	(2,up)	(2,up)	(3,di)	(3,up)	(4,di)	
+
+(0,no)	(1,di)	(2,up)	(2,up)	(3,up)	(4,di)	(4,up)	
+
+Longest Common Subsequence:	BCBA

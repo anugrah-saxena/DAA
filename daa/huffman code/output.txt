@@ -1,0 +1,47 @@
+[index 0]... item->a	freq->45
+[index 1]... item->b	freq->13
+[index 2]... item->c	freq->12
+[index 3]... item->d	freq->16
+[index 4]... item->e	freq->9
+[index 5]... item->f	freq->5
+
+
+allocating new nodes
+
+p2->5,p1->9,tempo->14
+
+p2->12,p1->13,tempo->25
+
+p2->14,p1->16,tempo->30
+
+p2->25,p1->30,tempo->55
+
+p2->45,p1->55,tempo->100
+
+Intermediate Steps:
+
+0	---ps100---,---p2s55---,---p1s45---
+1	[ps100->],[p2s55->1],[p1s45->0]
+11	---ps55---,---p2s30---,---p1s25---
+0	---ps55---,---p2s30---,---p1s25---
+1	[ps55->1],[p2s30->11],[p1s25->10]
+11	---ps45---,---p2s16---,---p1s14---
+0	---ps45---,---p2s16---,---p1s14---
+1	[ps30->11],[p2s16->111],[p1s14->110]
+11	---ps25---,---p2s13---,---p1s12---
+0	---ps25---,---p2s13---,---p1s12---
+1	[ps25->10],[p2s13->101],[p1s12->100]
+11	---ps16---,---p2s9---,---p1s5---
+0	---ps16---,---p2s9---,---p1s5---
+1	[ps14->110],[p2s9->1101],[p1s5->1100]
+
+
+	Final Huffman code:
+
+	Item	Frequency	HUFFMAN Code
+	a	45		0
+	b	13		101
+	c	12		100
+	d	16		111
+	e	9		1101
+	f	5		1100
