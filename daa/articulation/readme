@@ -1,6 +1,0 @@
-This articulation program is a modification to my DFS.C program in which I considered a node as WHITE(-1) or unvisited, GRAY(0) or under consideration, and BLACK(1) or visited. It includes LINK.H containing various operations on linklist to be implemented here for TOPLOGICAL SORTED LIST. COUNT was implemented for noticing time operation.
-DFSNO, LOWVAL, LOWCHILD, CHILD respectively for calculating DFSNO of a node.. LOWVAL initially has DFSNO ; then it has the backedge data and then is used to get the updated LOWEST LOWVAL from nodes DFSNO, LOWEST DFSNO of BACKEDGE and LOWEST of all children LOWVAL(i.e., LOWCHILD). CHILD contains which node has how many childrens.. also ROOTCHILD is used to know if Starting node has >1 children or not.. as only if the condition of articluation satisfies i.e., LOWVAL(child)>=DFSNO(parent) but specifically for root it should have 2 or more children.
-input file is : INPUT.TXT (no of nodes and ADJACENCY MATRIX specified)
-output file is : OUTPUT.TXT ([a] input , [b] DFS traversal, [c] initial DFSNO & LOWVAL, [d] updated DFSNO: LOWVAL by backedge: LOWCHILD from lowest LOWVAL of children otherwise -1, [e] and finally updates LOWVAL for all nodes [f] list of articulation nodes with their DFSNO and LOWVAL).
-Anugrah Saxena
-2008UCP106

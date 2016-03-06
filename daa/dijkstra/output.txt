@@ -1,5 +1,0 @@
-node=0 parent=-1 distance=0
-node=1 parent=2 distance=8
-node=2 parent=0 distance=5
-node=3 parent=1 distance=9
-node=4 parent=2 distance=7

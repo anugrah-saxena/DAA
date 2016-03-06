@@ -1,8 +1,0 @@
-Edge 1 - 4 (with weight 2) is included
-Edge 0 - 2 (with weight 3) is included
-Edge 4 - 5 (with weight 3) is included
-Edge 1 - 2 (with weight 4) is included
-Edge 5 - 6 (with weight 4) is included
-Edge 2 - 3 (with weight 5) is included
-
-Total minimum spanning tree weight is = 21
